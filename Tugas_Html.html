@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firza Ekaputra - Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <!-- HEADER: hanya berisi judul dan navigasi -->
     <header>
         <h1>Welcome to my Personal Homepage!</h1>
         <nav>
@@ -16,30 +18,49 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <p>
-            Hai Everyone, saya Firza Ekaputra Zulfiqar merupakan mahasiswa teknik informatika Universitas Sam Ratulangi manado. Saat ini saya sedang berada disemester 6. Saya merupakan mahasiswa yang cukup aktif di berbagai organisasi, mulai dari himpunan mahasiswa elektro,
-            badan kerohanian fakultas hingga himpunan mahasiswa islam manado.Saya juga aktif dalam kegiatan diluar kampus, seperti alumni peserta program pertukaran mahasiswa merdeka di universitas padjajaran tahun 2024 kemarin hingga penerima beasiswa Karya Salemba Empat unsrat tahun 2023-2024.
-            Saya berasal dari Makassar namun saya lahir di manado tanggal 4 Maret 2003. Saat ini saya berusia 22 tahun. Harapan saya ialah semoga dikemudian hari saya menjadi orang yang dapat berguna bagi masyarakat sekitar, dapat menjadi pemimpin baik dikeluarga maupun dalam bermasyarakat serta diberikan keistiqomaan dalam mempelajari agama islam hingga ajal menjemput.
-            Terima kasih telah berkunjung. HAVE FUN!!!
-        </p>
     </header>
 
+    <!-- HOME SECTION: berisi isi deskripsi diri -->
+<section id="home">
+    <h2>About Me</h2>
+    <div class="profile">
+        <p>
+            Halo semuanya! Saya <strong>Firza Ekaputra Zulfiqar</strong>, mahasiswa <strong>Teknik Informatika</strong> di Universitas Sam Ratulangi, Manado. Saat ini saya sedang menempuh semester 6.
+        </p>
+        <p>
+            Saya aktif di berbagai organisasi seperti <em>Himpunan Mahasiswa Elektro</em>, <em>Badan Kerohanian Fakultas</em>, hingga <em>Himpunan Mahasiswa Islam Manado</em>.
+        </p>
+        <p>
+            Di luar kampus, saya adalah alumni program <strong>Pertukaran Mahasiswa Merdeka 2024</strong> di Universitas Padjadjaran, serta penerima beasiswa <strong>Karya Salemba Empat</strong> tahun 2023–2024.
+        </p>
+        <p>
+            Saya lahir di <strong>Manado, 4 Maret 2003</strong> dan berasal dari Makassar. Kini berusia <strong>22 tahun</strong>, saya berharap dapat menjadi pribadi yang bermanfaat bagi sekitar, menjadi pemimpin yang baik, serta terus istiqomah dalam mempelajari agama Islam.
+        </p>
+        <p><em>Terima kasih telah berkunjung. Have fun exploring!</em></p>
+    </div>
+</section>
+
+
+    <!-- GALLERY SECTION -->
     <section id="gallery">
         <h2>Gallery</h2>
-        <figure>
-            <img src="https://via.placeholder.com/300" alt="Gambar 1">
-            <figcaption>Gambar 1</figcaption>
-        </figure>
-        <figure>
-            <img src="https://via.placeholder.com/300" alt="Gambar 2">
-            <figcaption>Gambar 2</figcaption>
-        </figure>
-        <figure>
-            <img src="https://via.placeholder.com/300" alt="Gambar 3">
-            <figcaption>Gambar 3</figcaption>
-        </figure>
-    </section>
+        <div class="multi-slideshow">
+          <figure class="slide-group">
+            <img src="IMAGES/Unpad.jpg" alt="Me">
+            <figcaption>Me</figcaption>
+          </figure>
+          <figure class="slide-group">
+            <img src="IMAGES/Family.jpg" alt="Family">
+            <figcaption>Family</figcaption>
+          </figure>
+          <figure class="slide-group">
+            <img src="IMAGES/ball.jpg" alt="Field">
+            <figcaption>Field</figcaption>
+          </figure>
+        </div>
+      </section>      
 
+    <!-- BLOG SECTION -->
     <section id="blog">
         <h2>Blog</h2>
         <article>
@@ -63,7 +84,6 @@
                     <li>Negeri Para Bedebah</li>
                     <li>Pulang-Pergi</li>
                 </ol>
-
             </p>
         </article>
         <article>
@@ -78,6 +98,7 @@
         </article>
     </section>
 
+    <!-- CONTACT SECTION -->
     <section id="contact">
         <h2>Contact</h2>
         <address>
@@ -85,5 +106,8 @@
             <p>Instagram: <a href="https://instagram.com/firzaputraa_" target="_blank">@firzaputraa_</a></p>
         </address>
     </section>
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
 </body>
 </html>
