@@ -18,7 +18,8 @@
     padding: 30px;
     border-radius: 5px;
     margin-bottom: 30px;
-    text-align: center; 
+    text-align: center;
+    position: relative; 
 }
 
 header h1 {
@@ -108,7 +109,7 @@ nav ul li a:hover {
   
   .slide.active {
     display: block;
-  }  
+  } 
   
   #blog article {
     background-color: white;
@@ -142,3 +143,16 @@ nav ul li a:hover {
   #contact a:hover {
     text-decoration: underline;
   }
+  #clock {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #FFD700;
+    color: #001f3f;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
