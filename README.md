@@ -1,4 +1,4 @@
-# tugas-html
+# tugas-html (Untuk ke github-pages Tambahkan Tugas_Html.html/php diakhir)
 Tujuan
 Membuat personal homepage atau web portofolio sederhana.
 
