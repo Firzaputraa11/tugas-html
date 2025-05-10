@@ -33,7 +33,11 @@ const imageSets = [
     currentSet = (currentSet + 1) % imageSets.length;
   }
   
+<<<<<<< HEAD
   setInterval(updateGallery, 5000); // setiap 7 detik
+=======
+  setInterval(updateGallery, 5000); // setiap 5 detik
+>>>>>>> master
   
   // === SMOOTH SCROLL MENU ===
   document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
